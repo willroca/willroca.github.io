@@ -1,0 +1,57 @@
+.jumbotron{
+    background-color: rgb(233, 236, 239);
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-size: large;
+}
+        
+.col-lg-4{
+    text-align: center;
+}
+        
+.dropdown-menu{
+    background-color: #343a40;
+    color: #ffffff;
+}
+        
+.dropdown-item{
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.centrado{
+  display: flex;
+  align-items: center;
+}
+
+.dark-mode{
+    background-color: rgb(15,15,15);
+    color: white;
+}
+
+.white-mode{
+    background-color: red;
+    color: white;
+}
+
+.cinza{
+    color: #f8f9fa;
+}
+        
+h2{
+    padding-top: 10px;
+}
+
+#jumboprofissional{
+    padding-bottom:40px;
+}
+
+#subtitulo{
+    font-size: 28px;
+}
+
+#data{
+    font-size: 20px;
+}
+
+

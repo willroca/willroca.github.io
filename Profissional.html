@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    William Bellinazo Roca - Profissional
+{% endblock %}
+
+{% block current %}
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Profissional</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Pessoal">Pessoal</a>
+              </li>
+{% endblock %}
+
+{% block blockoso %}
+      <div class="jumbotron text-center" id="jumboprofissional">
+        <h1>Profissional</h1>
+      </div>
+      
+      <div class="container marketing">
+
+        <!-- START THE FEATURETTES -->
+        <div class="row featurette centrado">
+          <div class="col-md-7">
+              <h2 class="featurette-heading">Avaliação de Potencial Eólico</h2>
+              <p class="lead">Minha área de expertise é a avalição de potencial eólico, incluíndo tratamento de dados de vento, simulação de potencial eólico, micrositing de turbinas, cálculos de P50 e P90 de parques eólicos.</p>
+              <p class="lead">Já simulei mais de 10GW em diferentes estados do Brasil, incluíndo diversos tipos de turbinas e grandes clientes do setor elétrico brasileiro.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="static/micrositing.png" alt="Micrositing">
+          </div>
+        </div>
+  
+        <hr class="featurette-divider">
+  
+        <div class="row featurette centrado">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Projeto de Sistemas Solares Fotovoltaicos</h2>
+            <p class="lead">Atuei na elaboração de projetos solares fotovoltaicos de geração distribuída, incluíndo cálculo da produção de energia, projeto básico, aprovação do projeto junto a concessionária, supervisão da instalação e comissionamento do sistema.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="static/solar.jpg" alt="Solar">
+          </div>
+        </div>
+  
+        <hr class="featurette-divider">
+  
+        <div class="row featurette centrado">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Programação e Soluções Customizadas</h2>
+            <p class="lead">Consigo programar nas linguagens C, MATLAB/Simulink, Python, entre outras. Já escrevi códigos desde códigos básicos, otimizações de processos para avaliação de potencial eólico até simulações de plantas eólicas híbridas com armazenamento de energia. Se você consegue ler essa página é graças a minha programação em HTML, CSS e Javascript!</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="static/programming.png" alt="Programação">
+          </div>
+        </div>
+  
+        <hr class="featurette-divider">
+        
+        <div class="row featurette centrado">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Liderança e Apresentações em Público</h2>
+            <p class="lead">Além de participar de apresentações de propostas e projetos a clientes e liderar equipes em ambientes voluntários e acadêmicos, desenvolvo constantemente minha liderança e comunicação no Toastmasters (não conhece o <a href="https://www.toastmasters.org/">Toastmasters?</a>).</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="static/toast.jpeg" alt="Apresentações">
+          </div>
+        </div>
+
+        <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+{% endblock %}

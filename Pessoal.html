@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    William Bellinazo Roca - Pessoal
+{% endblock %}
+
+{% block current %}
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Profissional">Profissional</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Pessoal</a>
+              </li>
+{% endblock %}
+
+{% block blockoso %}
+      <div class="jumbotron text-center" id="jumboprofissional">
+        <h1>Pessoal</h1>
+      </div>
+      
+      <div class="container marketing">
+
+        <!-- START THE FEATURETTES -->
+        <div class="row featurette centrado">
+          <div class="col-md-7">
+              <h2 class="featurette-heading">Motivações</h2>
+              <p class="lead">Minha principal motivação é ser o melhor que posso ser, que é uma motivação contínua para me aperfeiçoar e melhorar quem sou todos os dias. Atingir meus objetivos de vida é a minha segunda motivação. Dentre as causas que são importantes para mim, destaco a sustentabilidade, proteção dos animais, acesso a saúde e educação universal.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="static/motivation.jpg" alt="Motivação">
+          </div>
+        </div>
+  
+        <hr class="featurette-divider">
+  
+        <div class="row featurette centrado">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Hobbies</h2>
+            <p class="lead">Dentre as atividades que eu faço no meu tempo livre, destaco a minha paixão por viagens. Um dos meus objetivos de vida é viajar por todos os países do mundo. Outras atividades que eu gosto incluem leitura, música, churrascos com amigos, videogames, filmes e seriados.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="static/paris.jpg" alt="Paris">
+          </div>
+        </div>
+  
+        <hr class="featurette-divider">
+  
+        <div class="row featurette centrado">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Testes de Qualidade</h2>
+            <p class="lead">Uma atividade que eu realizo quando tenho tempo livre é teste de software, websites e jogos, principalmente na uTest e Usertesting. Como tenho facilidade em programação e uma pitada de perfeccionismo, consigo ajudar desenvolvedores identificando bugs e dando minha opinião como usuário para melhorar o produtos deles.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="static/software.jpg" alt="Testes">
+          </div>
+        </div>
+
+        <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+{% endblock %}
+

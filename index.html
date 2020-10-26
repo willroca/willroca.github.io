@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    William Bellinazo Roca - Homepage
+{% endblock %}
+
+{% block current %}
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Profissional">Profissional</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Pessoal">Pessoal</a>
+              </li>
+{% endblock %}
+
+{% block blockoso %}
+<div style="background-color: rgb(233, 236, 239) !important" class="jumbotron text-center">
+          <h1 style="clear:right">William Bellinazo Roca</h1>
+          <p>Engenheiro de Energia, MSc</p>
+      </div>
+      
+      <!--Referência https://getbootstrap.com/docs/4.0/examples/carousel/-->
+      <div class="container marketing">
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="static/turbine.jpg" alt="Profissional" width="140" height="140">
+            <h2>Profissional</h2>
+            <p>Resumo das minhas qualificações e experiência profissional</p>
+            <p><a class="btn btn-secondary" href="/Profissional" role="button">Mais detalhes &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="static/perfil.jpg" alt="Pessoal" width="140" height="140">
+            <h2>Pessoal</h2>
+            <p>Um pouco das minhas atividades preferidas e hobbies</p>
+            <p><a class="btn btn-secondary" href="/Pessoal" role="button">Mais detalhes &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="static/contato.png" alt="Contato" width="140" height="140">
+            <h2>Contatos</h2>
+            <p>Meus contatos e redes sociais</p>
+            <p><a class="btn btn-secondary" href="mailto:williamrocab@gmail.com" role="button">Email &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/williamroca/" role="button">Linkedin &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div>
+
+{% endblock %}

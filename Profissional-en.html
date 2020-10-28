@@ -133,6 +133,18 @@
         </footer>
         
         <script src="static/darkmode.js"></script>
+
+        <!--Csets dark mode variable http://diveintohtml5.info/storage.html-->
+        <script>
+        if(window.localStorage.getItem('darkmode') == "true"){
+          document.getElementById('darkSwitch').checked = true;
+          darkmode();
+        }
+        else{
+          window.localStorage.setItem('darkmode', 'false');
+        }
+        </script>
+
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
         <!-- Always remember to call the above files first before calling the bootstrap.min.js file -->
